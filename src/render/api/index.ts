@@ -12,7 +12,7 @@ class IpcAPI {
   constructor() {
     this.ipcInstance = useIpc()
 
-    this.ipcInstance.on('accounts/created', (account) => {
+    this.ipcInstance.on('account/created', (account) => {
       useStore.getState().addAccount(account)
     })
 

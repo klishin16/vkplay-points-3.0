@@ -20,7 +20,7 @@ export class IpcService {
   }
 
   public createdAccount(account: IAccount) {
-    this.webContents.send('account/updated', account)
+    this.webContents.send('account/created', account)
   }
 
   public updateAccount(account: Partial<IAccount>) {
