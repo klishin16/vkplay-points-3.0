@@ -4,6 +4,11 @@
   "packageManager": "pnpm@8.15.3",
   "description": "Vite + Electron with esbuild, so fast! ⚡",
   "main": "dist/main/index.js",
+  "author": {
+    "name": "klishin.nd",
+    "email": "klishin.nd16@gmail.com",
+    "url": "https://github.com/klishin16"
+  },
   "scripts": {
     "dev": "rimraf dist && vite",
     "debug": "rimraf dist && vite -- --dsb-debug",
